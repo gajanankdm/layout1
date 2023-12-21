@@ -1,0 +1,59 @@
+ :root{
+    --color-primary:#ffa500;
+    --color-white:#fff;
+
+}
+.nabar.fcNavbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fcNavbar .navbar-brand{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.fcNavbar .navbar-nav .nav-link
+{
+
+    color:var(--color-white);
+    height: 56px;
+    padding: 0;
+    line-height: 56px;
+    padding-bottom: 0;
+}
+
+.fcNavbar .navbar-nav .nav-link:focus,
+.fcNavbar .navbar-nav .nav-link:hover,
+.fcNavbar .navbar-nav .active>.nav-link,
+.fcNavbar .navbar-nav .nav-link.active,
+.fcNavbar .navbar-nav .nav-link.show,
+.fcNavbar .navbar-nav .show>.nav-link
+{
+    color: var(--color-primary);
+    border-bottom: 4px solid orange;
+    
+}
+
+li.nav-item{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:992px){
+    .fcNavbar .nav-item{
+        margin-left: 5px;
+    }
+}
